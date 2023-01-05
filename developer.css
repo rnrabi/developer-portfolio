@@ -1,5 +1,6 @@
 *{
     margin:0 auto;
+    padding:0;
 }
 /* .header{
     display: flex;
@@ -9,6 +10,7 @@
     display: flex;
     align-items: center;
     background-color:#FFF8F3;
+    padding-top:10px;
 }
 
 .header nav .rcolor{
@@ -18,7 +20,8 @@
 .header nav h2{
     border-radius: nullpx;
     font-family: 'Open Sans';
-    font-style: normal;;
+    font-style: normal;
+    margin-left: 398px;
 
 }
 .header nav ul{
@@ -38,10 +41,83 @@
     line-height: 27px;
     color: #474747;
 }
-.header nav ul li a .primary-btn{
+/* .header nav ul li a*/ .primary-btn{ 
     border: none;
     border-radius: 3px;
     background-color:#FD6E0A;
     padding:10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 25px;
    
 }
+.primary-btn1{ 
+    border: 1px solid #FD6E0A;
+    border-radius: 3px;
+    /* background-color:#FD6E0A; */
+    padding:10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+}
+
+.banar{
+    display: flex;
+    align-items: center;
+    background-color:#FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position: right bottom;
+   
+}
+.devloper img{
+     height:600px;
+}
+.banar .text{
+    text-align: left;
+    width: 585px;
+    height: 356px;
+    margin-left: 0;
+
+}
+.pic img{
+    vertical-align: bottom;
+}
+.text h2{
+    /* width: 177px; */
+    height: 61px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.text h1{
+    /* width: 498px; */
+    height: 116px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+.text p{
+    width: 585px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 25px;
+}
+
+
+
+
