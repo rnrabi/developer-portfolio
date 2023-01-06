@@ -21,7 +21,7 @@
     border-radius: nullpx;
     font-family: 'Open Sans';
     font-style: normal;
-    margin-left: 398px;
+    margin-left: 128px;
 
 }
 .header nav ul{
@@ -73,6 +73,7 @@
     background-image: url('images/header_bg.png');
     background-repeat:no-repeat;
     background-position: right bottom;
+    margin-bottom: 40px;
    
 }
 .devloper img{
@@ -117,6 +118,63 @@
     color: #757575;
     margin-bottom: 25px;
 }
+
+/* section */
+.about-me{
+    max-width: 1140px;
+    margin:0 auto;
+    background: #FFF8F3;
+}
+.main-section{
+    text-align: center;
+    padding: 131px 157px;
+}
+.cmn-title{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+     color: #181818;
+     margin-bottom: 30px;
+}
+.main-section > p{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+
+}
+.about-title .ttl{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #757575;
+}
+
+.about-title .des{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+
+
+
+
+
+
 
 
 
