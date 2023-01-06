@@ -137,6 +137,7 @@
     font-size: 35px;
      color: #181818;
      margin-bottom: 30px;
+     text-align: center;
 }
 .main-section > p{
     
@@ -169,10 +170,28 @@ color: #757575;
     color: #474747;
 }
 
-
-
-
-
+/* section2 */
+.section2{
+    max-width: 1140px;
+    margin:0 auto;
+   
+    margin-top: 130px;
+ }
+ .section2 > p{
+    width: 909px;
+    color: #757575;
+    margin-bottom: 80px;
+    text-align: center;
+ }
+.main-clm{
+    display: flex;
+    gap:87px;
+}
+.main-clm .clm p{
+    color: #757575;
+    padding: 30px 30px 30px 0;
+    text-align: left;
+}
 
 
 
